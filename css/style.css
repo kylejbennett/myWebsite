@@ -1,0 +1,257 @@
+
+#wrapper{
+	background-color: black;
+	color: white;
+	padding: 16px;
+	padding-top: 50px;
+	font-family: 'Syncopate';
+}
+
+/*############ HEADER ###########*/
+
+.hello1{
+	width: 45%;
+	display: inline-block;
+	float: left;
+	text-align: center;
+}
+
+.hello1 img{
+	width: 300px;
+
+}
+
+.hello2{
+	width: 45%;
+	display: inline-block;
+	float: left;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.hello2 li{
+	list-style: none;
+	text-align: left;
+	padding-left: 100px;
+}
+
+.hello2 h1{
+	font-family: 'Rock Salt';
+	text-align: left;
+	padding-left: 50px;
+}
+
+.clear{
+	clear: both;
+}
+
+/*############ NAVBAR ############*/
+
+#sitenav{
+	margin-top: 100px;
+}
+
+#sitenav ul{
+	height: 50px;
+	text-align: center;
+	padding-top: 16px;
+}
+
+#sitenav li{
+	display: inline;
+	padding-left: 100px;
+	padding-right: 100px;
+	font-size: 16pt;
+}
+
+#sitenav a{
+	text-decoration: none;
+	color: gray;
+}
+
+#sitenav a:hover{
+	color: red;
+}
+
+/*############ HOME ##############*/
+
+article{
+	margin-top: 100px;
+}
+
+article h1{
+	font-family: "Rock Salt";
+	padding-left: 100px;
+}
+
+article h2{
+	color: black;
+	text-align: center;
+	background-color: rgba(204, 204, 204, 0.4);
+	font-family: 'Rock Salt';
+	font-size: 28pt;
+	padding-top: 100px;
+}
+
+article a{
+	text-decoration: none;
+}
+
+.col1{
+	width: 100%;
+	height: 600px;
+	background-image: url('../images/mobile.jpeg');
+	background-size: cover;
+}
+
+.col2{
+	width: 100%;
+	height: 600px;
+	background-image: url('../images/edge.jpeg');
+	background-size: cover;
+	margin-top: 100px;
+}
+
+.col3{
+	width: 100%;
+	height: 600px;
+	background-image: url('../images/sites.jpeg');
+	background-size: cover;
+	margin-top: 100px;
+}
+
+/*############# PROJECTS ########*/
+
+#projects{
+	text-align: center;
+}
+
+.container{
+	margin: 24px;
+	width: 400px;
+	display: inline-block;
+}
+
+.box{
+	width: 400px;
+	height: 300px;
+	display: inline-block;
+}
+
+#proj1{
+	background-image: url('../images/pangolin7.jpg');
+	background-size: cover;
+}
+
+#proj2{
+	background-image: url('../images/Coastline.jpg');
+	background-size: cover;
+}
+
+#proj3{
+	background-image: url('../images/heat_map2.png');
+	background-size: cover;
+}
+
+#proj4{
+	background-image: url('../images/dog.jpeg');
+	background-size: cover;
+}
+#proj5{
+	background-image: url('../images/coffee.jpg');
+	background-size: cover;
+}
+#proj6{
+	background-image: url('../images/food.jpg');
+	background-size: cover;
+}
+
+#projects a{
+	color: white;
+}
+
+#projects p{
+	font-size: 10pt;
+}
+
+#projects h3:hover{
+	color: red;
+}
+
+#projects p:hover{
+	color: red;
+}
+
+/*########### BIO #############*/
+
+#bio{
+	text-align: center;
+}
+
+.row{
+	width: 800px;
+	margin: 100px auto;
+}
+
+#video{
+	width: 100%;
+	height: 800px;
+}
+
+#personal{
+	width: 100%;
+	height: 800px;
+	background-image: url('../images/atv.jpg');
+	background-size: cover;
+}
+
+#education{
+	width: 100%;
+	height: 800px;
+	background-image: url('../images/zona.jpg');
+	background-size: cover;
+}
+
+#work{
+	width: 100%;
+	height: 800px;
+	background-image: url('../images/work.jpeg');
+	background-size: cover;
+}
+
+article h4{
+	font-family: 'Rock Salt';
+	font-size: 18pt;
+}
+
+article p{
+	font-size: 15pt;
+}
+
+/*######### FOOTER ###########*/
+ 
+footer{
+	height: 212px;
+	background-color: gray;
+	margin-top: 150px;
+}
+
+footer li{
+	list-style: none;
+	line-height: 40px;
+}
+
+.social{
+	display: inline-block;
+	float: left;
+}
+
+.social img{
+	text-align: left;
+}
+
+.contact{
+	display: inline-block;
+	float: right;
+	padding-right: 16px;
+}
