@@ -1,2 +1,2 @@
 # myWebsite
-Personal website to show my portfolio projects.
+Personal website built to showcase the projects in  my portfolio.
